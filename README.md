@@ -1,7 +1,7 @@
 # AppWeather
 
 # Frameworks:
-UIKit
+UIKit 
 CoreLocation
 
 # Architecture
@@ -14,4 +14,4 @@ FindModule
 DI - Dependency Injection
 
 # API
-Open Weather Map
+Open Weather Map: https://openweathermap.org
