@@ -69,6 +69,8 @@ class FindViewController: UIViewController {
     }
 }
 
+//MARK: - Constraints
+
 extension FindViewController {
     private func addConstraints() {
         view.addSubview(tableView)
@@ -96,12 +98,16 @@ extension FindViewController: UITableViewDataSource {
     }
 }
 
+//MARK: - Table View Delegate
+
 extension FindViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let cell = tableView.cellForRow(at: indexPath)
         searchCity = cell?.textLabel?.text ?? ""
     }
 }
+
+//MARK: - Search Bar Delegate
 
 extension FindViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {

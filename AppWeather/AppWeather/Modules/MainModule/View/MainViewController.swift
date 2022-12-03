@@ -76,6 +76,8 @@ class MainViewController: UIViewController {
     
 }
 
+//MARK: - Constraints
+
 extension MainViewController {
     
     private func addConstraints() {
@@ -117,6 +119,8 @@ extension MainViewController {
         ])
     }
 }
+
+//MARK: - Setup Layout
 
 extension MainViewController {
     private func createCompositionalLayout() -> UICollectionViewLayout {
@@ -172,6 +176,8 @@ extension MainViewController {
         return section
     }
 }
+
+//MARK: - Collection View Data Source
 
 extension MainViewController: UICollectionViewDataSource {
     func numberOfSections(in collectionView: UICollectionView) -> Int {

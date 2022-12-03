@@ -7,6 +7,8 @@
 
 import UIKit
 
+//MARK: - Collection View Cell
+
 class WeatherByDayCell: UICollectionViewCell {
     
     static let reuseId: String = "WeatherByDayCell"

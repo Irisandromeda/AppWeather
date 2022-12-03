@@ -7,6 +7,8 @@
 
 import Foundation
 
+//MARK: - SectionList (Compositional Layout)
+
 enum SectionList {
     case weatherByHour(WeatherData)
     case weatherByDay(WeatherData)

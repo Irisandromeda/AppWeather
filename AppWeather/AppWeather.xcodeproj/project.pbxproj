@@ -12,7 +12,6 @@
 		4F33789029341BED00142B2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F33788F29341BED00142B2E /* SceneDelegate.swift */; };
 		4F33789729341BEE00142B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F33789629341BEE00142B2E /* Assets.xcassets */; };
 		4F33789A29341BEE00142B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F33789829341BEE00142B2E /* LaunchScreen.storyboard */; };
-		4F7F24552934E8E8001F8E09 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7F24542934E8E8001F8E09 /* WeatherCell.swift */; };
 		4F7F245D29354516001F8E09 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7F245C29354516001F8E09 /* FindViewController.swift */; };
 		4F7F245F29354617001F8E09 /* FindPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7F245E29354617001F8E09 /* FindPresenter.swift */; };
 		4FB00D992934205200CF3E09 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB00D982934205200CF3E09 /* UIColor.swift */; };
@@ -40,7 +39,6 @@
 		4F33789629341BEE00142B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F33789929341BEE00142B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F33789B29341BEE00142B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F7F24542934E8E8001F8E09 /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 		4F7F245C29354516001F8E09 /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
 		4F7F245E29354617001F8E09 /* FindPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPresenter.swift; sourceTree = "<group>"; };
 		4FB00D982934205200CF3E09 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 		4F7F244B2934DFEF001F8E09 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				4F7F24542934E8E8001F8E09 /* WeatherCell.swift */,
 				4FD957A1293AA04C00B85BFA /* WeatherByHourCell.swift */,
 				4FD957A3293AAF8000B85BFA /* WeatherByDayCell.swift */,
 			);
@@ -312,7 +309,6 @@
 				4FB00DB1293433B100CF3E09 /* ModulesBuilder.swift in Sources */,
 				4FD957A2293AA04C00B85BFA /* WeatherByHourCell.swift in Sources */,
 				4F7F245F29354617001F8E09 /* FindPresenter.swift in Sources */,
-				4F7F24552934E8E8001F8E09 /* WeatherCell.swift in Sources */,
 				4FB00D9F2934208F00CF3E09 /* UIImageView.swift in Sources */,
 				4FC778752937967C007FC41E /* LocationService.swift in Sources */,
 				4FD957B4293AC8AC00B85BFA /* SectionList.swift in Sources */,
